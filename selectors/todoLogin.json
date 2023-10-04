@@ -1,0 +1,18 @@
+{
+    "Login":{
+        "imgLoging" : "img[src=\"/Images/design/pagelogin.png\"]",
+        "inputEmail" : "input[id='ctl00_MainContent_LoginControl1_TextBoxEmail']",
+        "inputPass" : "input[id='ctl00_MainContent_LoginControl1_TextBoxPassword']",
+        "buttonLogin" : "input[id='ctl00_MainContent_LoginControl1_ButtonLogin']"
+
+    },
+    "Menu" : {
+        "settings" : "a[href='javascript:OpenSettingsDialog();']",
+        "logout" : "#ctl00_HeaderTopControl1_LinkButtonLogout"
+
+    },
+    "Profile" : {
+        "email" : "EmailInput",
+        "closeButton" : ".ui-icon.ui-icon-closethick"
+    }
+}

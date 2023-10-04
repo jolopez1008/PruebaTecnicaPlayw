@@ -1,0 +1,10 @@
+{
+    "signUpButton": "img[src='/Images/design/pagesignup.png']",
+    "signUpForm": {
+        "fullName" : "input[id='ctl00_MainContent_SignupControl1_TextBoxFullName']",
+        "email" : "input[id='ctl00_MainContent_SignupControl1_TextBoxEmail']",
+        "password" : "input[id='ctl00_MainContent_SignupControl1_TextBoxPassword']",
+        "signUpButton" : "input[id='ctl00_MainContent_SignupControl1_ButtonSignup']",
+        "termsCheckbox" : "input[id='ctl00_MainContent_SignupControl1_CheckBoxTerms']"	
+    }
+}
