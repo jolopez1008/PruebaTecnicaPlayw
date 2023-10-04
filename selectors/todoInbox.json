@@ -9,8 +9,8 @@
             "itemMenuEdit" : "ul[id='itemContextMenu']>li[class='edit']>a[href='#edit']",
             "itemMenuDelete" : "ul[id='itemContextMenu']>li[class='delete separator']>a[href='#delete']",
             "itemTextEdit" : "//div[@class='ItemContentDiv' and @onclick='ItemList.EditItemText(this);' and text()='Nota numero 1']",
-            "itemEditOn" : "div[class='ItemContentDiv UnderEditingItem']>div[id='ItemEditDiv']"
-
+            "itemEditOn" : "//div[@onclick='ItemList.EditItemText(this);' and @style='color: rgb(0, 0, 0);']",
+            "messageBox" : "span[id='InfoMessageText']"
         }
     }
 }

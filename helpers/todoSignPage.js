@@ -32,4 +32,5 @@ module.exports = {
     async clickSignUpForm (page) {
         await page.click(selectors.signUpForm.signUpButton)
     },
+
 }

@@ -31,6 +31,14 @@ module.exports = {
     async verifyLogoutButtonDisplayed(page) {
         const logoutLink = await page.locator (selectors.Menu.logout)
         expect (await logoutLink.isVisible()).toBeTruthy()
+    },
+    //Se hace click en el elemento logout
+    async clickLogoutButton(page) {
+        await page.click(selectors.Menu.logout)
+    },
+    //Se verifica que el elemento login sea visible
+    async verifyLoginButtonDisplayed(page) {
+        const loginLink = await page.locator (selectors.Login.imgLoging)
+        expect (await loginLink.isVisible()).toBeTruthy()
     }
-
 }
