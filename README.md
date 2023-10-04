@@ -30,12 +30,14 @@ A continuación se describen los pasos para descargar e instalar el template y v
 
 Este proceso también se puede realizar desde una terminal nativa de su sistema operativo.
 
-### Primeros pasos
+### Primeros Pasos
 
 ##### Terminal
 1. Abrimos una nueva terminal desde la pestaña _Terminal > New Terminal_, utilizamos la terminal por defecto de nuestro sistema operativo o utilizamos una terminal previamente creada.
 
 2. Desde dicha terminal, ejecutamos el comando ```npx playwright test```
+   
+3. Para ver los reportes ejecutamos el comando ```npx playwright show-report```
 
 ## Construido con 🛠️
 
